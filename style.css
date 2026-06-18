@@ -1,0 +1,96 @@
+body{
+	font-family: arial;
+	background-image: url("https://wallpapercave.com/wp/wp4661034.jpg") ;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    displap flex: centre;
+    justify-content: center;
+    align-items:center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+
+.container{
+    width: 380px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    text-align: center;
+    color: #fff;
+}
+
+.container h1{
+    margin-bottom: 20px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.input-group{
+    margin-bottom: 15px;
+    text-align: centre;
+}
+
+label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.65);
+    background: blue
+    color: black;
+    font-size: 16px;
+}
+
+input::placeholder{
+    color: blue
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,114,255,0.4);
+}
+
+#result{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.15);
+    font-size: 18px;
+    font-weight: bold;
+}
